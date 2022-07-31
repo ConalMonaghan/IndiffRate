@@ -1,4 +1,6 @@
    A clean R Markdown template for the Indifference Lab 
+   <br><br>
+   
    Credit for the template goes to EpuRate is [a custom R Markdown template](https://holtzy.github.io/epuRate/)
 ===================
 
