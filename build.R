@@ -3,11 +3,11 @@
 # ------------------------------- #
 
 # Remove previous version just in Case
-remove.packages("epuRate")
+remove.packages("IndiffRate")
 
 # Install with devtools
 library(devtools)
-devtools::install("../epuRate")
+devtools::install("../IndiffRate")
 
 # Load to check it is all good
-library(epuRate)
+library(IndiffRate)
