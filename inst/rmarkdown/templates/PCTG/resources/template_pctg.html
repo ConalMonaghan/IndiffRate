@@ -466,8 +466,8 @@ $endfor$
 <br><br><br><br>
 <hr />
 <p style="text-align: center;"> A work by <a href="https://github.com/$github$">$author$</a> <br><br>
-	                        Special Thanks to Yan Holtz(https://github.com/holtzy/) for the RMD template and design  <br><br>
-	                        Research supported by the Australian National University (ANU) </p>
+	                        Special Thanks to Yan Holtz (https://github.com/holtzy/) for the RMD template and design  <br><br>
+	                        Research supported by the School of Medicine and Psychology (SMP), Australian National University (ANU) </p>
 <p style="text-align: center;"><span style="color: #808080;"><em>$mail$</em></span></p>
 
 <!-- Add icon library -->
@@ -486,6 +486,9 @@ $endfor$
   $endif$
   $if(home)$
   <a href="https://$home$" class="fa fa-home"></a>
+  $endif$
+   $if(researchgate)$
+  <a href="https://www.researchgate.net/profile/$researchgate$" class="fab fa-researchgate"></a>
   $endif$
 </p>
 
